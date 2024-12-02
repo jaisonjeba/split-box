@@ -1,0 +1,31 @@
+/* Main container styling */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  margin: 0;
+}
+
+/* Styling for each box */
+.box {
+  background-color: lightgreen;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+/* Styling for the container holding the smaller boxes */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
